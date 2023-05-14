@@ -99,7 +99,7 @@ public class Controller : MonoBehaviour
     IEnumerator LoadBugAfterDelay(float delay)
     {
         yield return new WaitForSeconds(delay);
-        SceneManager.LoadScene(currentLevel);
+        SceneManager.LoadScene(currentLevel); 
     }
 
 
